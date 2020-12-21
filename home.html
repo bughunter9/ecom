@@ -12,16 +12,20 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="./home.css" />
   </head>
   <body>
     <!-- navbar -->
     <nav class="navbar">
       <div class="navbar-center">
-        <span class="nav-icon">
-          <i class="fas fa-bars"></i>
-        </span>
-        <img src="./images/logo.svg" alt="store logo" />
+        <a href="index.html" class="brand">Calvin</a>
+        <ul>
+            <li class="nav-item"><a href="#" class="nav-link" data-text="Home">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link" data-text="Products">Products</a></li>
+            <li class="nav-item"><a href="#" class="nav-link" data-text="Register">Register</a></li>
+            <!-- <li class="nav-item"><a href="#" class="nav-link" data-text="Sports">Sports</a></li>
+            <li class="nav-item"><a href="#" class="nav-link" data-text="Welfare">Welfare</a></li> -->
+        </ul>
         <div class="cart-btn">
           <span class="nav-icon">
             <i class="fas fa-cart-plus"></i>
@@ -30,6 +34,7 @@
         </div>
       </div>
     </nav>
+
     <!-- end of navbar -->
     <!-- hero -->
     <header class="hero">
@@ -41,30 +46,22 @@
     <!-- end of hero -->
 
     <!-- products -->
-    <section class="products">
+    <!-- <section class="products">
       <div class="section-title">
         <h2>our products</h2>
       </div>
       <div class="products-center">
-        <!-- single product -->
-        <!-- <article class="product">
-          <div class="img-container">
-            <img
-              src="./images/product-1.jpeg"
-              alt="product"
-              class="product-img"
-            />
-            <button class="bag-btn" data-id="1">
-              <i class="fas fa-shopping-cart"></i>
-              add to bag
-            </button>
-          </div>
-          <h3>queen bed</h3>
-          <h4>$16</h4>
-        </article> -->
-        <!-- end of single product -->
+       
       </div>
-    </section>
+    </section> -->
+      <footer>
+      <div class="footer-div">
+        <p class="footer-text">
+          Made with ❤️ by Divjyot Singh & Manroop Parmar
+        </p>
+      </div>
+    </footer>
+   
     <!-- end of products -->
     <!-- cart -->
     <div class="cart-overlay">
@@ -72,23 +69,7 @@
         <span class="close-cart"><i class="far fa-window-close"></i></span>
         <h2>your cart</h2>
         <div class="cart-content">
-          <!-- cart item -->
-          <!-- <div class="cart-item">
-            <img src="./images/product-1.jpeg" alt="product" />
-            <div>
-              <h4>queen bed</h4>
-              <h5>$9.00</h5>
-              <span class="remove-item">remove</span>
-            </div>
-            <div>
-              <i class="fas fa-chevron-up"></i>
-              <p class="item-amount">
-                1
-              </p>
-              <i class="fas fa-chevron-down"></i>
-            </div>
-          </div> -->
-          <!-- cart item -->
+         
         </div>
         <div class="cart-footer">
           <h3>your total : $<span class="cart-total">0</span></h3>
@@ -98,8 +79,8 @@
     </div>
     <!-- end of cart -->
     <!-- contentful -->
-    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
-    <!--  javascript -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script> -->
     <script src="app.js"></script>
+  
   </body>
 </html>

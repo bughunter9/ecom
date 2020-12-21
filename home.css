@@ -55,6 +55,25 @@ body {
   border-radius: 30%;
   color: var(--mainWhite);
 }
+
+.brand {
+  font-size: 1.5rem;
+  color: #fff;
+  /* background-color: #8744ff; */
+  padding: 0 1rem;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  color: #8744ff;
+  margin-right: 2rem;
+  padding: 0 1rem;
+  display: block;
+  position: relative;
+  transform-style: preserve-3d;
+  transform-origin: top;
+  transition: transform 250ms cubic-bezier(0.55, 0.55, 0.675, 0.19);
+}
 /* --------------- End of Navbar ---------------- */
 /* --------------- Hero ---------------- */
 .hero {
@@ -262,3 +281,17 @@ body {
   color: var(--primaryColor);
   text-align: center;
 }
+
+.footer-text {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footer-div {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  background-color: white;
+}
+
